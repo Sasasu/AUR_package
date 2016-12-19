@@ -10,6 +10,7 @@ pkgbase = kjieba
 	makedepends = extra-cmake-modules
 	depends = gcc
 	depends = qt5-base
+	depends = krunner
 	source = kjieba::git+https://github.com/isoft-linux/kjieba
 	source = libcppjieba::git+https://github.com/yanyiwu/libcppjieba
 	md5sums = SKIP
